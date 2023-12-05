@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+    color: white;
+}
+.container {
+    margin: 50px auto;
+    width: 600px;
+    border: 10px solid rgb(66, 65, 65);
+    box-shadow: 10px 10px 100px 0px rgba(237, 237, 237, 0.75);
+}
+.heading {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+.form-control {
+
+    width: 500px;
+}
+.form-input {
+    
+    width:300px;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    margin:20px 30px;
+    box-shadow: 2px 2px 20px rgb(218, 206, 206);
+    border: 1px solid white;
+}
+.form-input:focus {
+    background-color: transparent;
+}
+#btn {
+    padding: 10px 30px;
+    background-color: rgb(215, 52, 52);
+    color: white;
+    font-family: sans-serif;
+    margin-left:10px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 50px rgb(115, 115, 115);
+   
+}
+#btn:active {
+    background-color: rgb(99, 101, 100);
+
+}
+.todo-list {
+    margin: 10px auto;
+    align-items: center;
+    color: rgb(120, 255, 134);
+    overflow: hidden;
+    
+}
+.text-item {
+    list-style-type: none;
+    margin: 10px auto;
+    display: flex; /* Add display: flex to make it a flex container */
+}
+
+.remove-btn {
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: rgb(253, 13, 13);
+    color: white;
+    font-family: sans-serif;
+    margin-left: auto; /* Push the button to the right */
+    border: 1px solid white;
+}
